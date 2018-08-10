@@ -1,0 +1,75 @@
+/* Global */
+body{
+  background: #345;
+  color: #FFF;
+  font-family: sans-serif;
+}
+.box{
+  border: 1px solid #99D;
+  border-radius: 15px;
+}
+
+/* Header */
+#headerBox{
+  background-image: url("./pics/workstationPic3.JPG");
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+  margin: 0 0 1vh 0;
+}
+#profilePic{
+  border-radius: 50%;
+}
+
+/* Projects */
+#portfolioBox{
+  padding: 1vh;
+  margin: 0 0 1vh 0;
+  display: flex;
+}
+.portfolioItem{
+  height: 250px;
+  display: inline-block;
+  border: 1px solid white;
+  margin: 0;
+}
+.portfolioItemPic{
+  height: 250px;
+  border-radius: 3px;
+}
+.portfolioItemPic:hover{
+  box-shadow: 0px 0px 5px 2px #DDF;
+}
+.hoverText{
+  font-family: sans-serif;
+}
+#reactRpg .hoverText{
+  position:relative;
+  bottom:70%;
+  left:30%;
+  visibility: hidden;
+}
+#reactRpg:hover .hoverText{
+  visibility: visible;
+}
+
+/* Footer */
+#footerBox{
+  padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+#socialButtonHolder{
+  display: flex;
+}
+.socialButton{
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.socialButton:hover{
+  box-shadow: 0px 0px 5px 2px #DDF;
+}
